@@ -34,12 +34,12 @@
                             <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pTH-sy-oK6">
                                 <rect key="frame" x="61" y="367" width="254" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" textContentType="username"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="78W-T8-Un2">
                                 <rect key="frame" x="60" y="476" width="252" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Umj-JP-nbf">
                                 <rect key="frame" x="62" y="540" width="47" height="30"/>
@@ -92,8 +92,7 @@
                     </view>
                     <connections>
                         <outlet property="passwordFiled" destination="78W-T8-Un2" id="bKf-0C-4BM"/>
-                        <outlet property="usernameFeild" destination="pTH-sy-oK6" id="kkN-mu-MTT"/>
-                        <outlet property="usernameField" destination="pTH-sy-oK6" id="tQE-10-YCM"/>
+                        <outlet property="usernameField" destination="pTH-sy-oK6" id="PUW-5V-YHb"/>
                         <segue destination="tbZ-bT-WTM" kind="presentation" identifier="loginSegue" modalPresentationStyle="fullScreen" id="ygN-ZR-tkE"/>
                     </connections>
                 </viewController>
