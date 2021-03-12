@@ -130,23 +130,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image_placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="Jus-lF-xwo">
-                                <rect key="frame" x="37" y="142" width="300" height="250"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image_placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="Jus-lF-xwo">
+                                <rect key="frame" x="35" y="142" width="305" height="300"/>
                                 <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="82m-I7-5Dp"/>
+                                </constraints>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="0RB-NM-nf4" appends="YES" id="gP9-kA-v1g"/>
                                 </connections>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cpb-sP-hJc">
-                                <rect key="frame" x="37" y="412" width="300" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cpb-sP-hJc">
+                                <rect key="frame" x="37" y="469" width="300" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="PUc-4t-rTN"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="wRi-7F-HSu"/>
+                                    <constraint firstAttribute="height" constant="34" id="yGK-jP-knT"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zRC-7R-J3S">
-                                <rect key="frame" x="37" y="471" width="300" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zRC-7R-J3S">
+                                <rect key="frame" x="37" y="525" width="301" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="ONB-VS-DHi"/>
+                                </constraints>
                                 <state key="normal" title="Submit"/>
                                 <connections>
                                     <action selector="onSubmit:" destination="5K5-3o-cNI" eventType="touchUpInside" id="mDe-pm-h2x"/>
@@ -155,6 +163,18 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="D7U-vD-qXl"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="zRC-7R-J3S" firstAttribute="top" secondItem="cpb-sP-hJc" secondAttribute="bottom" constant="22" id="1P6-gP-ZQX"/>
+                            <constraint firstItem="D7U-vD-qXl" firstAttribute="trailing" secondItem="cpb-sP-hJc" secondAttribute="trailing" constant="38" id="7H0-aM-Gvo"/>
+                            <constraint firstItem="Jus-lF-xwo" firstAttribute="top" secondItem="D7U-vD-qXl" secondAttribute="top" constant="98" id="7l7-p6-bNu"/>
+                            <constraint firstItem="D7U-vD-qXl" firstAttribute="trailing" secondItem="cpb-sP-hJc" secondAttribute="trailing" constant="38" id="9QI-X4-B1W"/>
+                            <constraint firstItem="D7U-vD-qXl" firstAttribute="trailing" secondItem="Jus-lF-xwo" secondAttribute="trailing" constant="35" id="EGf-Hm-6Ed"/>
+                            <constraint firstItem="zRC-7R-J3S" firstAttribute="leading" secondItem="D7U-vD-qXl" secondAttribute="leading" constant="37" id="Mge-06-PAM"/>
+                            <constraint firstItem="Jus-lF-xwo" firstAttribute="leading" secondItem="D7U-vD-qXl" secondAttribute="leading" constant="35" id="SBe-Dk-XnD"/>
+                            <constraint firstItem="cpb-sP-hJc" firstAttribute="top" secondItem="Jus-lF-xwo" secondAttribute="bottom" constant="27" id="Ssb-aO-GZX"/>
+                            <constraint firstItem="D7U-vD-qXl" firstAttribute="trailing" secondItem="zRC-7R-J3S" secondAttribute="trailing" constant="37" id="q12-ik-lCB"/>
+                            <constraint firstItem="cpb-sP-hJc" firstAttribute="leading" secondItem="D7U-vD-qXl" secondAttribute="leading" constant="37" id="twP-cg-Tt4"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="commentField" destination="cpb-sP-hJc" id="Iql-fc-o5O"/>
