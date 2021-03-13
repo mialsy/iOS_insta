@@ -23,4 +23,6 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/mialsy/iOS_insta/blob/main/res/ezgif-3-96271c3e4c1a.gif' title='Video Walkthrough part 1 except login' width='600' alt='Video Walkthrough part 1 except login' />
+
+<img src='https://github.com/mialsy/iOS_insta/blob/main/res/ezgif-3-86159e6e9574.gif' title='Video Walkthrough part 1 login' width='600' alt='Video Walkthrough part 1 login' />
