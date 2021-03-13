@@ -2,7 +2,7 @@
 
 This is an Instagram clone with a custom Parse backend that allows a user to post photos and view a global photos feed.
 
-Time spent: **X** hours spent in total
+Time spent: **3** hours spent in total
 
 ## User Stories
 
@@ -23,6 +23,10 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
+Anything except login:
+
 <img src='https://github.com/mialsy/iOS_insta/blob/main/res/ezgif-3-96271c3e4c1a.gif' title='Video Walkthrough part 1 except login' width='500' alt='Video Walkthrough part 1 except login' />
+
+Login part:
 
 <img src='https://github.com/mialsy/iOS_insta/blob/main/res/ezgif-3-86159e6e9574.gif' title='Video Walkthrough part 1 login' width='500' alt='Video Walkthrough part 1 login' />
