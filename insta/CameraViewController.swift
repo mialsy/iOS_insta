@@ -64,7 +64,6 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
         
         imageView.image = scaleddImage
         dismiss(animated: true, completion: nil)
-        
     }
     
     /*
