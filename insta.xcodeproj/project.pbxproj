@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2801B5B7C7D185A9F6715DE3 /* Pods_instaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 856F2CB9293EC9C4B0BFB1CC /* Pods_instaTests.framework */; };
+		9993213126029A8700E668C4 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9993213026029A8700E668C4 /* CommentCell.swift */; };
 		99B5750125FB2A660043FA49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B5750025FB2A660043FA49 /* AppDelegate.swift */; };
 		99B5750325FB2A660043FA49 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B5750225FB2A660043FA49 /* SceneDelegate.swift */; };
 		99B5750825FB2A660043FA49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99B5750625FB2A660043FA49 /* Main.storyboard */; };
@@ -48,6 +49,7 @@
 		4CBC98309350409B93B358F4 /* Pods-insta-instaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-insta-instaUITests.release.xcconfig"; path = "Target Support Files/Pods-insta-instaUITests/Pods-insta-instaUITests.release.xcconfig"; sourceTree = "<group>"; };
 		5B62A2F24360D332B1A6EFC2 /* Pods-instaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instaTests.release.xcconfig"; path = "Target Support Files/Pods-instaTests/Pods-instaTests.release.xcconfig"; sourceTree = "<group>"; };
 		856F2CB9293EC9C4B0BFB1CC /* Pods_instaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_instaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9993213026029A8700E668C4 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		99B574FD25FB2A660043FA49 /* insta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = insta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99B5750025FB2A660043FA49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99B5750225FB2A660043FA49 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 				99B5754725FB2E040043FA49 /* FeedViewController.swift */,
 				99B5754C25FBF5E60043FA49 /* CameraViewController.swift */,
 				99B5756625FC500F0043FA49 /* PostCell.swift */,
+				9993213026029A8700E668C4 /* CommentCell.swift */,
 			);
 			path = insta;
 			sourceTree = "<group>";
@@ -421,6 +424,7 @@
 				99B5754825FB2E040043FA49 /* FeedViewController.swift in Sources */,
 				99B5750325FB2A660043FA49 /* SceneDelegate.swift in Sources */,
 				99B5756725FC500F0043FA49 /* PostCell.swift in Sources */,
+				9993213126029A8700E668C4 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
