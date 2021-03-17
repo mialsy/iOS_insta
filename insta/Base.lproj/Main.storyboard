@@ -178,7 +178,7 @@
                                             <outlet property="usernameLabel" destination="nNQ-bD-BN1" id="Abi-95-HUL"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CommentCell" id="ygh-jg-O77" customClass="CommentCell" customModule="insta" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="CommentCell" id="ygh-jg-O77" customClass="CommentCell" customModule="insta" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="436" width="375" height="37.333332061767578"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ygh-jg-O77" id="qqq-sn-JdT">
@@ -213,6 +213,28 @@
                                             <outlet property="commentLabel" destination="zvM-xH-jDx" id="svF-7H-rjk"/>
                                             <outlet property="nameLabel" destination="604-hb-pFy" id="xY7-SO-1vK"/>
                                         </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="AddCommentCell" id="xUt-E2-Mb7">
+                                        <rect key="frame" x="0.0" y="473.33333206176758" width="375" height="37"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xUt-E2-Mb7" id="ASe-Gk-6t8">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="37"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add a comment..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rnl-dg-FKB">
+                                                    <rect key="frame" x="16" y="8" width="351" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" systemColor="placeholderTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="Rnl-dg-FKB" secondAttribute="bottom" constant="8" id="1jf-hY-woB"/>
+                                                <constraint firstItem="Rnl-dg-FKB" firstAttribute="top" secondItem="ASe-Gk-6t8" secondAttribute="top" constant="8" id="5Nd-0Y-DHg"/>
+                                                <constraint firstAttribute="trailing" secondItem="Rnl-dg-FKB" secondAttribute="trailing" constant="8" id="kSq-Pb-jEL"/>
+                                                <constraint firstItem="Rnl-dg-FKB" firstAttribute="leading" secondItem="ASe-Gk-6t8" secondAttribute="leading" constant="16" id="ubx-hM-PF8"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -333,6 +355,9 @@
         <image name="instagram_logo" width="255" height="108"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="placeholderTextColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
